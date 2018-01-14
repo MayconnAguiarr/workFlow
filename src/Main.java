@@ -9,14 +9,14 @@ public class Main {
                 .setQuantidade(1)
                 .build();
 
-       Ingrediente ingrediente2 = new IngredienteBuilder("Café José", 1)
+       Ingrediente ingrediente2 = new IngredienteBuilder("Café José", 6)
                                     .build();
 
-        System.out.println(ingrediente.getNome());
-        System.out.println(ingrediente2.getNome());
-    }
+       System.out.println(ingrediente2.descricao());
+       System.out.println(ingrediente.descricao());
+	}
 
 	public void aparelho() {
-		
-	}	
+
+	}
 }
