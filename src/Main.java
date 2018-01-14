@@ -5,6 +5,6 @@ public class Main {
     
     public static String ingrediente() {
     	
-    	return "Pipoca";    	
+    	return "Café Pelé";
     }
 }
