@@ -3,8 +3,7 @@ public class Main {
        System.out.println(ingrediente());             
     }
     
-    public static String ingrediente() {
-    	
-    	return "Pipoca";    	
+    public static String ingrediente() {    	
+    	return "Farinha de trigo";    	
     }
 }
