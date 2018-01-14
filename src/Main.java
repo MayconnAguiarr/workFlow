@@ -1,10 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-       System.out.println(ingrediente());             
+       final Ingrediente ingrediente = new Ingrediente("Café Pelé");
+       System.out.println(ingrediente.nome);
     }
     
-    public static String ingrediente() {
-    	
-    	return "Café Pelé";
-    }
 }
