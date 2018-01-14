@@ -6,4 +6,8 @@ public class Main {
 	public static String ingrediente() {
 		return "Café Pelé";
 	}
+	
+	public void aparelho() {
+		
+	}	
 }
