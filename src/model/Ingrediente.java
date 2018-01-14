@@ -1,6 +1,4 @@
-package model;
-
-import com.sun.deploy.util.StringUtils;
+package model;	
 
 //@Entity
 public class Ingrediente {
@@ -31,5 +29,9 @@ public class Ingrediente {
 
     public void setQuantidade(Integer quantidade) {
         this.quantidade = quantidade;
+    }
+    
+    public String descricao () {    	
+    	return nome + " - " + quantidade;    	
     }
 }
