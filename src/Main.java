@@ -3,5 +3,4 @@ public class Main {
        final Ingrediente ingrediente = new Ingrediente("Café Pelé");
        System.out.println(ingrediente.nome);
     }
-    
 }
